@@ -49,7 +49,18 @@ for a in range(3):                     ## User inputs new key and values for the
 	values = input("Enter Student Grade ")
 	Grade_List.update({keys:int(values)})
 
-print(Grade_List)   
+print(Grade_List)  
+
+##Question No. 3
+ListCeption = []
+ListCeption.append(2)    ##Apending Values
+ListCeption.append("Hello")
+ListCeption.append("Bye")
+ListCeption.append([6,3,1])
+ListCeption.append({"nums":[10,20,30]})
+ListCeption[4]["nums"] = ListCeption[4]["nums"][0]+ListCeption[4]["nums"][1]+ListCeption[4]["nums"][2] #Calacuting Sum in dict elements
+print(ListCeption)
+ 
 
 
 
